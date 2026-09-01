@@ -1,0 +1,96 @@
+{
+  "_comment": "SYNTHETIC MarketCheck-v2-shaped search response for parseListings() tests . Fake VINs/dealers/URLs — no real PII. Covers: a passing 2024 Lux3 AWD 1-owner clean-title low-miles car; a branded-title car (carfax_clean_title=false); an over-mileage car (>15000); a 2-owner car (carfax_1_owner=false).",
+  "num_found": 4,
+  "listings": [
+    {
+      "vin": "1GYKPSRL2RZ900001",
+      "price": 57990,
+      "miles": 7400,
+      "exterior_color": "Stellar Black Metallic",
+      "carfax_1_owner": true,
+      "carfax_clean_title": true,
+      "is_certified": false,
+      "vdp_url": "https://listings.example.test/vdp/1GYKPSRL2RZ900001",
+      "build": {
+        "year": 2024,
+        "make": "Cadillac",
+        "model": "the target vehicle",
+        "trim": "Luxury 3",
+        "drivetrain": "AWD"
+      },
+      "dealer": {
+        "name": "Synthetic Cadillac of Detroit",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48226"
+      }
+    },
+    {
+      "vin": "1GYKPSRL2RZ900002",
+      "price": 51990,
+      "miles": 9100,
+      "carfax_1_owner": true,
+      "carfax_clean_title": false,
+      "is_certified": false,
+      "vdp_url": "https://listings.example.test/vdp/1GYKPSRL2RZ900002",
+      "build": {
+        "year": 2024,
+        "make": "Cadillac",
+        "model": "the target vehicle",
+        "trim": "Luxury 3",
+        "drivetrain": "AWD",
+        "exterior_color": "Radiant Red Tintcoat"
+      },
+      "dealer": {
+        "name": "Fake Salvage Motors",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "43604"
+      }
+    },
+    {
+      "vin": "1GYKPSRL2RZ900003",
+      "price": 49990,
+      "miles": 22800,
+      "carfax_1_owner": true,
+      "carfax_clean_title": true,
+      "is_certified": false,
+      "vdp_url": "https://listings.example.test/vdp/1GYKPSRL2RZ900003",
+      "build": {
+        "year": 2024,
+        "make": "Cadillac",
+        "model": "the target vehicle",
+        "trim": "Luxury 3",
+        "drivetrain": "AWD"
+      },
+      "dealer": {
+        "name": "Example High-Miles Auto",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601"
+      }
+    },
+    {
+      "vin": "1GYKPSRL2RZ900004",
+      "price": 56990,
+      "miles": 8200,
+      "carfax_1_owner": false,
+      "carfax_clean_title": true,
+      "is_certified": true,
+      "vdp_url": "https://listings.example.test/vdp/1GYKPSRL2RZ900004",
+      "build": {
+        "year": 2024,
+        "make": "Cadillac",
+        "model": "the target vehicle",
+        "trim": "Luxury 3",
+        "drivetrain": "AWD"
+      },
+      "dealer": {
+        "name": "Sample Cadillac CPO Center",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+data/
+out/
+publish/
+*.db
+*.db-journal
+my-*.json

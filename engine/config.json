@@ -1,0 +1,46 @@
+{
+  "title": "Example Vehicle Search",
+  "feeDisclaimer": "Landed = listing price + estimated shipping ONLY. It EXCLUDES destination charge, dealer doc/filing fees, taxes, title and registration. Always confirm the out-the-door total in writing before committing.",
+  "target": {
+    "year": 2024,
+    "make": "Honda",
+    "model": "CR-V",
+    "trim": "*",
+    "drivetrain": "AWD"
+  },
+  "carTypes": ["new", "used", "certified"],
+  "reportTopN": 200,
+  "maxMileage": 60000,
+  "maxPrice": 40000,
+  "minPrice": 1000,
+  "owners": 1,
+  "ownersAny": true,
+  "allowUnknownMileage": true,
+  "useDrivetrainFacet": false,
+  "accidentsAllowed": "minor",
+  "homeZip": "60601",
+  "referenceVin": "5J6RW2H89RA000000",
+  "sources": [{ "name": "marketcheck", "enabled": true }],
+  "shippingBands": [
+    { "maxDistanceMi": 500, "cost": 400 },
+    { "maxDistanceMi": 1500, "cost": 900 },
+    { "maxDistanceMi": 2500, "cost": 1300 },
+    { "maxDistanceMi": null, "cost": 1500 }
+  ],
+  "financing": [
+    { "apr": 5.5, "months": 72 },
+    { "apr": 6.0, "months": 84 }
+  ],
+  "pacing": {
+    "minActionDelayMs": 1500,
+    "maxActionDelayMs": 4000,
+    "perDomainMinIntervalMs": 3000
+  },
+  "paths": {
+    "dbFile": "./data/search.db",
+    "profilesDir": "./data/profiles",
+    "outDir": "./out",
+    "scratchDir": "./data/scratch",
+    "resultsCopyDir": "./out/copy"
+  }
+}

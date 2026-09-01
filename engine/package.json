@@ -1,0 +1,48 @@
+{
+  "name": "vehicle-price-search",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Config-driven used/new vehicle price tracker over the MarketCheck API. Ranks listings by landed price (listing + estimated shipping) and renders a filterable static report.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "init-db": "tsx src/cli/init-db.ts",
+    "search": "tsx src/cli/search.ts",
+    "publish": "tsx src/cli/publish.ts",
+    "re-report": "tsx src/cli/re-report.ts"
+  },
+  "dependencies": {
+    "playwright": "1.60.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  },
+  "author": "StrateGenix Solutions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strategenixsolutions-ux/vehicle-price-search.git"
+  },
+  "homepage": "https://github.com/strategenixsolutions-ux/vehicle-price-search#readme",
+  "bugs": {
+    "url": "https://github.com/strategenixsolutions-ux/vehicle-price-search/issues"
+  },
+  "keywords": [
+    "vehicle",
+    "car",
+    "marketcheck",
+    "price-tracker",
+    "landed-price",
+    "claude-skill",
+    "automotive"
+  ]
+}
