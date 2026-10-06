@@ -11,6 +11,12 @@ Config-driven: adding a vehicle is editing JSON, never code. Ships as both a
 runnable CLI and a [Claude Code](https://claude.com/claude-code) skill
 (`SKILL.md`), so an agent can run the whole interview-to-published-page loop.
 
+**[See a real run.](https://vehicle-price-search-example.vercel.app)** A 2024
+Cadillac LYRIQ search published as a static page: the ranked buyable set, a
+separate list of listings that need a human to verify owner count or title,
+and every rejection with the filter that caused it. Point-in-time snapshot
+from June 2026, not current pricing.
+
 ## What you get
 
 A self-contained static HTML page plus a CSV:
