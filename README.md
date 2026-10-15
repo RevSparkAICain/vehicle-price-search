@@ -143,7 +143,7 @@ engine/
 
 ## Credits
 
-Built by **[StrateGenix Solutions](https://github.com/strategenixsolutions-ux)**.
+Built by **[Robert Cain](https://github.com/RevSparkAICain)**.
 
 MIT licensed. Not affiliated with MarketCheck, or with any vehicle manufacturer
 or dealer. Listing data belongs to its respective sources; you need your own

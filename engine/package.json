@@ -27,14 +27,14 @@
     "typescript": "^5.7.3",
     "vitest": "^2.1.8"
   },
-  "author": "StrateGenix Solutions",
+  "author": "Robert Cain",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strategenixsolutions-ux/vehicle-price-search.git"
+    "url": "git+https://github.com/RevSparkAICain/vehicle-price-search.git"
   },
-  "homepage": "https://github.com/strategenixsolutions-ux/vehicle-price-search#readme",
+  "homepage": "https://github.com/RevSparkAICain/vehicle-price-search#readme",
   "bugs": {
-    "url": "https://github.com/strategenixsolutions-ux/vehicle-price-search/issues"
+    "url": "https://github.com/RevSparkAICain/vehicle-price-search/issues"
   },
   "keywords": [
     "vehicle",
